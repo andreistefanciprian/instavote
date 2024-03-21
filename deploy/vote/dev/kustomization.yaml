@@ -4,5 +4,5 @@ resources:
 - ../base
 
 patches:
-- _patches/vote.yaml
+  - path: _patches/vote.yaml
 
