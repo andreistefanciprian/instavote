@@ -5,4 +5,4 @@ metadata:
     app: vote
   name: vote
 spec:
-  replicas: 3
+  replicas: 1
