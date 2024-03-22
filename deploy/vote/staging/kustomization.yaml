@@ -4,6 +4,9 @@ resources:
   - ../base
 
 patches:
-  - path: _patches/vote.yaml
+  # - path: _patches/vote.yaml
   - path: _patches/service.yaml
 
+replicas:
+- name: vote
+  count: 4

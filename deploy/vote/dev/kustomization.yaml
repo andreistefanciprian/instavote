@@ -3,6 +3,10 @@ kind: Kustomization
 resources:
   - ../base
 
-patches:
-  - path: _patches/vote.yaml
+# patches:
+#   - path: _patches/vote.yaml
+
+replicas:
+- name: vote
+  count: 4
 
